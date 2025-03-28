@@ -86,6 +86,7 @@ img {
 .header-navigation-list {
   display: flex;
   gap: 40px;
+  position: relative;
 }
 
 .header-navigation-item-studio {
@@ -126,6 +127,9 @@ img {
   height: 4px;
   background: #404bbf;
   display: block;
+  padding-bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .header-address {
@@ -207,6 +211,10 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  max-width: 1140px;
+}
+.section-common-features .section-one-background .container {
+  background-position: center center;
 }
 
 .main-title {
