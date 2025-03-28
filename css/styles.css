@@ -379,6 +379,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.smm-icons-list-link:hover {
+  background-color: #31d0aa;
+}
+
 .iconssmm {
 }
 
@@ -438,6 +442,11 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.footer-common .container {
+}
+.logo-block {
+  display: flex;
+}
 .footer-logo {
   display: inline-block;
   font-family: Raleway, sans-serif;
@@ -457,10 +466,27 @@ img {
 }
 
 .footer-text {
+  display: block;
   font-size: 16px;
   /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.smm-block {
+}
+.footer-h-smm {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.footer-smm-list {
+  display: flex;
+}
+.footer-smm-item {
+  display: inline-block;
 }
