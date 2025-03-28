@@ -253,6 +253,7 @@ img {
   margin-top: 48px;
   margin-right: auto;
   margin-left: auto;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-btn:hover,
@@ -289,6 +290,7 @@ img {
   background: #f4f4fd;
   padding: 24px 100px;
   margin-bottom: 8px;
+  align-items: center;
 }
 .section-two-link {
   display: block;
@@ -339,7 +341,8 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-foto {
+.team-member {
+  padding: 32px 0;
 }
 
 .section-three-list-item-card {
@@ -376,11 +379,13 @@ img {
 }
 
 .smm-icons-list-item {
+  width: 40px;
+  height: 40px;
 }
 
 .smm-icons-list-link {
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -389,7 +394,12 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.smm-icons-list-link:hover {
+  background-color: #404bbf;
+}
+
 .iconssmm {
+  fill: #f4f4fd;
 }
 
 /* Our Portfolio section four*/
