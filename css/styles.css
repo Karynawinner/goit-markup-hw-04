@@ -379,10 +379,6 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.smm-icons-list-link:hover {
-  background-color: #31d0aa;
-}
-
 .iconssmm {
 }
 
@@ -442,10 +438,16 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-common .container {
+.footer-container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex;
 }
 .logo-block {
-  display: flex;
+  width: 264px;
+  height: 112px;
 }
 .footer-logo {
   display: inline-block;
@@ -475,6 +477,9 @@ img {
   max-width: 264px;
 }
 .smm-block {
+  margin-left: 120px;
+  margin-right: auto;
+  display: inline-block;
 }
 .footer-h-smm {
   font-family: "Roboto", sans-serif;
@@ -483,10 +488,32 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 .footer-smm-list {
   display: flex;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  max-width: 208px;
+  height: 40px;
 }
 .footer-smm-item {
-  display: inline-block;
+}
+
+.footer-smm-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-smm-link:hover {
+  background-color: #31d0aa;
 }
