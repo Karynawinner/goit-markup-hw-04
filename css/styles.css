@@ -286,7 +286,7 @@ img {
   width: 100%;
   height: 112px;
   background: #f4f4fd;
-  padding: 24px 100px;
+
   margin-bottom: 8px;
   align-items: center;
 }
@@ -366,8 +366,7 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin-bottom: 32px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .smm-icons-list-item {
@@ -518,8 +517,6 @@ img {
   max-width: 264px;
 }
 .smm-block {
-  margin-left: 120px;
-  margin-right: auto;
   display: inline-block;
 }
 .footer-h-smm {
